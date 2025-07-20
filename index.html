@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STS School - Git Practice.</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Register for STS</h1>
+        <p class="subtitle">Please fill in this form to create an account</p>
+<!-- --------------------------------------------------- Forms ---------------------------------------------------- -->
+
+
+        <form action="">
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter Your Name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password">
+            </div>
+
+            <div class="from-group">
+                <label for="dateofbirth">Date of Birth</label>
+                <input type="date" id="dateofbirth" name="dateofbirth" placeholder="mm/dd/yyyy">
+                
+            </div>
+
+<!-- -------------------------- radio ----------------------------------------------------- -->
+            <div class="form-group">
+                <label>Choose your course</label>
+                <div class="radio">
+                    <input type="radio" id="frontend" name="course" value="frontend">
+                    <label for="frontend">Frontend</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="backend"name= "course" value="backend">
+                    <label for="backend">Backend</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="data-science"name= "course" value="data-science">
+                    <label for="data-science">Data Science</label>
+                </div>
+
+<!-- -------------------------- radio ----------------------------------------------------- -->
+
+
+<!-- -------------------------- select ----------------------------------------------------- -->
+                <div class="form-group">
+                    <label>Your Experience level</label>
+                    <select name="options" id="options">
+                        <option value="beginner">Beginner (0-1 years)</option>
+                        <option value="mid-level">Mid Level (1-3 years)</option>
+                        <option value="senior">Senior (3+ years)</option>
+                    </select>
+                </div> 
+<!-- -------------------------- select ----------------------------------------------------- -->
+
+<!-- -------------------------- comments ----------------------------------------------------- -->
+                <div class="form-group">
+                    <label for="comments">Any comments?</label>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Tell us more..."></textarea>
+                </div>
+<!-- -------------------------- comments ----------------------------------------------------- -->
+
+                <div class="checkbox">
+                    <input type="checkbox" id="check" name="check" value="true">
+                    <label for="check">I want to receive the newsletter.</label>
+                </div>
+                <hr>
+
+                <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
